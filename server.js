@@ -4,7 +4,7 @@ Importer les dépendances
     // Composants
     const express = require('express');
     const path = require('path');
-    const ejs = require('ejs');
+    // const ejs = require('ejs');
 
     // Modules
     const frontRoute = require('./routes/front');
@@ -52,7 +52,6 @@ Johnny Five
             });
 
             button.on("down", function (value) {
-                console.log('button pressed');
                 socket.emit('jump', { jump: true });
             });
         });

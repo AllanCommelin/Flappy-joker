@@ -1,20 +1,17 @@
 {
-  "name": "node-html-mongo-qs",
+  "name": "flappy-joker",
   "version": "1.0.0",
-  "description": "Dossier permettant d'initier un serveur NodeJS avec des vues HTML",
+  "description": "Jeu Flappy-bird controllé par une manette crée avec une carte type Arduino",
   "main": "server.js",
   "scripts": {
     "start": "nodemon server.js"
   },
-  "author": "Julien Noyer",
-  "license": "MIT",
+  "author": "Joker Team",
+  "license": "",
   "dependencies": {
-    "body-parser": "^1.18.2",
     "ejs": "^2.5.7",
     "express": "^4.16.2",
     "johnny-five": "^1.3.1",
-    "mongoose": "^5.7.1",
-    "mysql": "^2.15.0",
     "nodemon": "^1.14.11",
     "path": "^0.12.7",
     "socket.io": "^2.3.0"
